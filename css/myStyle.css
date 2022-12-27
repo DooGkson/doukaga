@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 41, 63);
+}
+
+
+@font-face {
+    font-family: "Soffia Script";
+    font-family: "ALBA";
+    src: url("../police/soffia Script.ttf") format("ttf"),
+                url('../police/ALBA.TTF') format("TTF");
+   }
+
+
+#monArrierePlan{
+     background: url('../img/MG_9849.JPG');
+    background-size: 100%;
+    text-align: center;
+    padding: 18rem;  
+    background-repeat: no-repeat;
+
+}
+#liens:hover{
+        font-size: 15px;
+        font-style: oblique;
+        color: brown;
+}
+#montext{
+    font-family: ALBA;
+    font-size: 20px;
+}
+
+#desc{
+        font-family: ALBA;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: justify;
+
+}
+#yeux:hover{
+        color: blue;
+}
+#line::after{
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background: #FF6F61;
+}
+#ligne{
+        line-height: 25px;
+        background-color: black;
+}
